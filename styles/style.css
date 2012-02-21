@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+body
+{
+	font-family: tahoma;
+	background-color: #61AFBB;
+	color: white;
+}
+
+textarea
+{
+	color: white;
+	font-family: tahoma;
+	font
+}
+
+a { color: white;}
+
+#mainContainer
+{
+	width: 1320px;
+	margin: 0 auto;
+	border-radius: 6px;
+	-moz-border-radius:6px 6px 6px 6px;
+	background-color: #282828;
+	padding: 4px;
+}
+
+#innerContainer
+{
+	width: 1290px;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	-moz-border-radius:6px 6px 6px 6px;
+	padding: 15px 15px 30px;
+	min-height: 200px;
+}
+
+h2
+{
+	font-weight: bolder;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+h4
+{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#papersTable
+{
+	width:100%;
+	text-align: center;
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	text-align: justify;
+}
+
+#papersTable tr td:nth-child(2)
+{
+	text-align: left;
+}
+
+#papersTable td
+{
+	vertical-align: top;
+	padding:5px;
+}
+
+#papersTable>thead th
+{
+	border-bottom-style: double;
+	border-bottom-width: 2px;
+}
+
+.dataContainer
+{
+	display: none;
+}
